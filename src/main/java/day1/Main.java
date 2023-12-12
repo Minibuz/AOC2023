@@ -1,10 +1,6 @@
-package dayOne;
+package day1;
 
 import utils.FileReader;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Pattern;
 
 public class Main {
 

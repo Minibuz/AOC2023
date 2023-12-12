@@ -1,4 +1,4 @@
-package dayTen;
+package day10;
 
 import utils.FileReader;
 

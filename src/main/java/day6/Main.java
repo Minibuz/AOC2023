@@ -1,4 +1,4 @@
-package daySix;
+package day6;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,11 +7,11 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        // Why read the file and parse it when it's 2 lines
+        // Pourquoi lire le fichier quand il fait 2 lignes.
         // var lines = FileReader.readFile("day6.txt");
 
-        var times = new ArrayList<>(List.of(/* Entry */));
-        var distances =  new ArrayList<>(List.of(/* Entry */));
+        var times = new ArrayList<>(List.of(50, 74, 86, 85));
+        var distances =  new ArrayList<>(List.of(242, 1017, 1691, 1252));
 
         var bestDistancePerTimes = new HashMap<Integer, Integer>();
         for (var i = 0; i < times.size(); i++) {
@@ -38,8 +38,8 @@ public class Main {
         System.out.println(part1);
 
         // PART 2
-        var time = /* Entry */;
-        var distance =  /* Entry */;
+        var time = 50748685L;
+        var distance =  242101716911252L;
 
         var part2 = 0;
         for (int timeToWait = 0; timeToWait < time; timeToWait++) {
